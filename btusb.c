@@ -335,6 +335,9 @@ static const struct usb_device_id blacklist_table[] = {
 
 	/* Silicon Wave based devices */
 	{ USB_DEVICE(0x0c10, 0x0000), .driver_info = BTUSB_SWAVE },
+	
+	/* Edimax EW-7611ULB 2-in-1 N150 Wi-Fi & Bluetooth 4.0 Nano USB Adapter */
+	{ USB_DEVICE(0x7392, 0xa611), .driver_info = BTUSB_REALTEK },
 
 	{ }	/* Terminating entry */
 };
